@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    background-color: #282828;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.container {
+    width: 85%;
+    margin: 0 40px;
+}
+
+header {
+    background-color: #fdfcdc;
+    border-bottom: 4px dashed #bcee68;
+}
+
+header h1 {
+   text-align: left;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-top: 30px;
+   line-height: 100%;
+   color: #bcee68;
+}
+
+div nav a {
+    position: relative;
+    left: 70%;
+    display:inline-block;
+    margin: 4px 4px;
+    padding-bottom: 12px;
+    color: #bcee68;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div:hover nav a {
+    transition: 250ms ease;
+    text-decoration: overline;
+    color: #bcee68;
+}
+
+.content {
+    margin: 20px auto;
+    background-color: #fdfcdc;
+    width: 95%;
+}
+
+.content h2 {
+    color: #bcee68;
+}
+
+.box {
+    padding: 20px 40px;
+    border-bottom: 16px solid #282828;
+}
+
+.links li {
+    display: inline-block;
+    text-decoration: overline;
+    color: #bcee68;
+    margin-left: 8px;
+    position: relative;
+    right: 50px;
+}
+
+#portrait {
+    width: 30%;
+    background-color: black;
+    border: 4px solid #bcee68;
+    color: #fff;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+.works {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    border: 4px solid #bcee68;
+    color: #fff;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.works img {
+    width: 100%;
+    height: auto;
+    transition: all 300ms ease;
+}
+
+.works:hover img {
+    transform: scale(1.08);
+}
+
+.works:nth-child(1) {
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h3 {
+    color: #bcee68;
+}
+/* ipad pro */
+@media only screen and (max-width:1024px) {
+    div nav a {
+        position: relative;
+        left: 60%;
+        display:inline-block;
+        margin: 4px 4px;
+        padding-bottom: 12px;
+        color: #bcee68;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    }
+/* Ipad */
+@media only screen and (max-width:768px) {
+    header {
+        background-color: #fdfcdc;
+        border-bottom: 4px dashed #bcee68;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    header h1 {
+       text-align: left;
+       margin-top: auto;
+       margin-bottom: auto;
+       padding-top: 30px;
+       line-height: 100%;
+       color: #bcee68;
+    }
+   
+    div nav a {
+        position: relative;
+        left: 50%;
+        display:inline-block;
+        margin: 4px 4px;
+        padding-bottom: 12px;
+        color: #bcee68;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #portrait {
+        width: 30%;
+        background-color: black;
+        border: 4px solid #bcee68;
+        color: #fff;
+        height: 200px;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+        position: relative;
+    }
+}
+/* Any Device under 414px */
+@media only screen and (max-width:414px) {
+    header {
+        background-color: #fdfcdc;
+        border-bottom: 4px dashed #bcee68;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    header h1 {
+       text-align: left;
+       margin-top: auto;
+       margin-bottom: auto;
+       padding-top: 30px;
+       line-height: 100%;
+       color: #bcee68;
+    }
+   
+    div nav a {
+        position: relative;
+        left: 8%;
+        display:inline-block;
+        margin: 4px 4px;
+        padding-bottom: 12px;
+        color: #bcee68;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #portrait {
+        width: 30%;
+        background-color: black;
+        border: 4px solid #bcee68;
+        color: #fff;
+        height: 50px;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .works {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        border: 4px solid #bcee68;
+        color: #fff;
+        height: 100px;
+        justify-content: center;
+        align-items: flex-start;
+        overflow-y: hidden;
+        position: relative;
+    }
+
+    .works:nth-child(1) {
+        width: 100%;
+        height: 120px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+/* Iphone 6/7/8/X */
+@media only screen and (max-width: 375px) {
+    div nav a {
+        position: relative;
+        left: 1%;
+        display:inline-block;
+        margin: 4px 4px;
+        padding-bottom: 12px;
+        color: #bcee68;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+/* Surface Duo */
+@media only screen and (max-width: 540px) {
+    div nav a {
+        position: relative;
+        left: 7%;
+        display:inline-block;
+        margin: 4px 4px;
+        padding-bottom: 12px;
+        color: #bcee68;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #portrait {
+        width: 30%;
+        background-color: black;
+        border: 4px solid #bcee68;
+        color: #fff;
+        height: 70px;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .works:nth-child(1) {
+        width: 100%;
+        height: 225px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
